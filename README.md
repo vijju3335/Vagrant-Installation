@@ -14,7 +14,7 @@ For more, visit [Vagrant](https://www.vagrantup.com/docs/)
 - [Bug And Feature Requests](#bug-and-feature-requests)
 
 
-## Download
+#### Download
 The files for the project, [download](https://github.com/vijju3335/Vagrant-Installation/archive/master.zip).
 
 #### What's included
@@ -36,7 +36,7 @@ Vagrant-Installation-master.zip
 └── README.md
 ```
 
-### Software Requirements
+#### Software Requirements
 
 This project should run on a virutal machine created using Vagrant, ToDo this, follow these steps:
 - Vagrant
