@@ -53,7 +53,11 @@ Vagrant-Installation-master.zip
 
 - [Skip](#stages), below command unless to want to use another vagrant box.
 - There are different vagrant-boxes [here](https://app.vagrantup.com/boxes/search)
-- This required only at time of intialization.
+- This required only at time of intialization.To use different Vagrant-Box, use below command,for eg:  choose box ubuntu/trusty64
+```
+C:\Users\vijaybabu\Desktop\VM_Vagrant>vagrant init ubuntu/trusty64
+```
+continue ...,
 
 #### Stages
 
