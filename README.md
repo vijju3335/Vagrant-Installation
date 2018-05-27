@@ -38,7 +38,7 @@ Vagrant-Installation-master.zip
 └── README.md
 ```
 
-### Prerequisites
+## Prerequisites
 - For Direct installation  [download](https://github.com/vijju3335/Vagrant-Installation/archive/master.zip) and  go [here](#installation)
 
 ## Installation
@@ -66,7 +66,7 @@ continue ...,
 - To [Stop Vagrant](#stop-vagrant)
 - To [Restart Vagrant](#restart-vagrant)
 
-### Start Vagrant
+##### Start Vagrant
 
 ```C:\Users\vijaybabu\Desktop\VM_Vagrant>vagrant up```  [live demo](https://github.com/vijju3335/Vagrant-Installation/blob/master/images/v2.png)
 
@@ -86,7 +86,7 @@ vagrant@vagrant:/vagrant$ ls -a
 .  ..  .vagrant  Vagrantfile
 vagrant@vagrant:/vagrant$ 
 ```
-### Exit Vagrant
+##### Exit Vagrant
 - To Exit from vagrant virtual box ,
 ```
 vagrant@vagrant:/vagrant$
@@ -96,7 +96,7 @@ Connection to 127.0.0.1 closed.
 
 C:\Users\vijaybabu\Desktop\VM_Vagrant>
 ```
-### Stop Vagrant
+##### Stop Vagrant
 - To stop vagrant virtual box ,
 ```
 C:\Users\vijaybabu\Desktop\VM_Vagrant>vagrant halt
@@ -104,14 +104,13 @@ C:\Users\vijaybabu\Desktop\VM_Vagrant>vagrant halt
 
 C:\Users\vijaybabu\Desktop\VM_Vagrant>
 ```
-
-### Restart Vagrant
+##### Restart Vagrant
 if any changes made to config file **Vagrantfile** must follow these,
 - [Stop Vagrant](#stop-vagrant) then
 - [Start Vagrant](#start-vagrant)
 
 ---
-### Postgresql
+## Postgresql
 - how to use [postgresql](https://github.com/vijju3335/LogsAnalysis) see from here.
 
 ## Bug And Feature Requests
