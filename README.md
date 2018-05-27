@@ -26,10 +26,10 @@ Vagrant-Installation-master.zip
 |
 └── images
 |     |
-|     └── v1.pjg
-|     └── v2.jpg
-|     └── v3.jp  
-|     └── ...
+|     └── v0.jpg
+|     └── v1.jpg
+|     └── v2.jpg  
+|     └── v3.jpg
 |
 └── VM_Vagrant
 |     |
@@ -46,8 +46,8 @@ Vagrant-Installation-master.zip
 - Install [Vagrant](https://download.virtualbox.org/virtualbox/5.2.12/VirtualBox-5.2.12-122591-Win.exe).
 - Install [Virtual Box](https://www.vagrantup.com/downloads.html).
 
-- First here, I go to anydrive and copy downloaded folder [here](https://github.com/vijju3335/Vagrant-Installation/blob/master/images/v1.jpg)
-- open command prompt at that folder [live demo](https://github.com/vijju3335/Vagrant-Installation/blob/master/images/v1.jpg)
+- First here, I go to anydrive and un-zip, copy the downloaded folder [here](https://github.com/vijju3335/Vagrant-Installation/blob/master/images/v0.jpg)
+- open command prompt [here](https://github.com/vijju3335/Vagrant-Installation/blob/master/images/v1.jpg)
 
 ```C:\Users\vijaybabu\Desktop\VM_Vagrant>```
 
