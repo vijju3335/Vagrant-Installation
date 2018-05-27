@@ -12,9 +12,10 @@ For more, visit [Vagrant](https://www.vagrantup.com/docs/)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Bug And Feature Requests](#bug-and-feature-requests)
+- [Postgresql](https://github.com/vijju3335/LogsAnalysis)
 
 
-#### Download
+### Download
 The files for the project, [download](https://github.com/vijju3335/Vagrant-Installation/archive/master.zip).
 
 #### What's included
@@ -26,31 +27,34 @@ Vagrant-Installation-master.zip
 └── images
 |     |
 |     └── v1.pjg
-|     |
 |     └── v2.jpg
+|     └── v3.jp  
+|     └── ...
+|
+└── VM_Vagrant
 |     |
-|     └── v3.jpg
-|     |
-|     └── .....
+|     └── Vargantfile
 |
 └── README.md
 ```
 
-#### Prerequisites
-- For Direct installation  [download](https://github.com/vijju3335/Vagrant-Installation/archive/master.zip) and  go [here](#)
----
+### Prerequisites
+- For Direct installation  [download](https://github.com/vijju3335/Vagrant-Installation/archive/master.zip) and  go [here](#installation)
+
 ## Installation
 
-- Install [Vagrant](#vagrant)
-- Install [Virtual Box](#virtual-box)
+- Install [Vagrant](https://download.virtualbox.org/virtualbox/5.2.12/VirtualBox-5.2.12-122591-Win.exe).
+- Install [Virtual Box](https://www.vagrantup.com/downloads.html).
 
-- First here, I go to drive, D and create folder VM_14.04
-- open command prompt at VM_14.04 folder 
+- First here, I go to anydrive and copy downloaded folder [here](https://github.com/vijju3335/Vagrant-Installation/blob/master/images/v1.jpg)
+- open command prompt at that folder [live demo](https://github.com/vijju3335/Vagrant-Installation/blob/master/images/v1.jpg)
 
-```D:\VM_14.0.4>```
+```C:\Users\vijaybabu\Desktop\VM_Vagrant>```
 
+- [Skip](#stages), below command unless to want to use another vagrant box.
 - There are different vagrant-boxes [here](https://app.vagrantup.com/boxes/search)
 - This required only at time of intialization.
+
 #### Stages
 
 - To [Start Vagrant](#start-vagrant)
@@ -58,62 +62,52 @@ Vagrant-Installation-master.zip
 - To [Stop Vagrant](#stop-vagrant)
 - To [Restart Vagrant](#restart-vagrant)
 
-- Skip Below  command if you [download](https://github.com/vijju3335/Vagrant-Installation/archive/master.zip) these files. 
-```D:\VM_14.0.4>vagrant init ubuntu/trusty64 ```  [live demo](https://github.com/vijju3335/LogsAnalysis/blob/master/images/v1.JPG) 
-
 ### Start Vagrant
 
-- Go to directory where Vagrantfile exists. then open command 
-```D:\VM_14.0.4>vagrant up```  [live demo](https://github.com/vijju3335/LogsAnalysis/blob/master/images/v2.JPG)
+```C:\Users\vijaybabu\Desktop\VM_Vagrant>vagrant up```  [live demo](https://github.com/vijju3335/Vagrant-Installation/blob/master/images/v2.png)
 
 - To control **Virtual Machine** from Host Sytem
 
-```\VM_14.04>vagrant ssh```  [live demo](https://github.com/vijju3335/LogsAnalysis/blob/master/images/v3.JPG)
+```C:\Users\vijaybabu\Desktop\VM_Vagrant>vagrant ssh```  [live demo](https://github.com/vijju3335/Vagrant-Installation/blob/master/images/v3.JPG)
 
 - To Access shared Directory Folders,
+
 ```
-vagrant@vagrant-ubuntu-trusty-64:~$ cd /vagrant
-vagrant@vagrant-ubuntu-trusty-64:/vagrant$
+vagrant@vagrant:~$ cd /vagrant
+vagrant@vagrant:/vagrant$
 ```
-[live demo](https://github.com/vijju3335/LogsAnalysis/blob/master/images/v4.png)
+
 ```
-vagrant@vagrant-ubuntu-trusty-64:/vagrant$ ls -a
+vagrant@vagrant:/vagrant$ ls -a
 .  ..  .vagrant  Vagrantfile
-vagrant@vagrant-ubuntu-trusty-64:/vagrant$ 
+vagrant@vagrant:/vagrant$ 
 ```
 ### Exit Vagrant
 - To Exit from vagrant virtual box ,
 ```
-vagrant@vagrant-ubuntu-trusty-64:/vagrant$
-vagrant@vagrant-ubuntu-trusty-64:/vagrant$ exit
+vagrant@vagrant:/vagrant$
+vagrant@vagrant:/vagrant$ exit
 logout
 Connection to 127.0.0.1 closed.
+
+C:\Users\vijaybabu\Desktop\VM_Vagrant>
 ```
 ### Stop Vagrant
 - To stop vagrant virtual box ,
 ```
-D:\VM_14.0.4>vagrant halt
+C:\Users\vijaybabu\Desktop\VM_Vagrant>vagrant halt
 ==> default: Attempting graceful shutdown of VM...
 
-D:\VM_14.0.4>
+C:\Users\vijaybabu\Desktop\VM_Vagrant>
 ```
 
 ### Restart Vagrant
 if any changes made to config file **Vagrantfile** must follow these,
 - [Stop Vagrant](#stop-vagrant) then
-- 
-```D:\VM_14.0.4>vagrant up```
-```D:\VM_14.04>vagrant ssh```  
-
-#### Vagrant
-- Download the vagrant setup file for **windows** [Vagrant.exe](https://www.vagrantup.com/downloads.html).
-These files configure the virtual machine and install all the tools needed to run this project.
-
-#### Virtual Box
-- Download the virtual box setup file for **windows** [VirtualBox.exe](https://download.virtualbox.org/virtualbox/5.2.12/VirtualBox-5.2.12-122591-Win.exe).
+- [Start Vagrant](#start-vagrant)
 
 ---
 
 ## Bug And Feature Requests
-- Have a bug or a feature request? Please feel free to open an [issue](https://github.com/vijju3335/LogsAnalysis/issues).
+- Have a bug or a feature request? Please feel free to open an [issue](https://github.com/vijju3335/Vagrant-Installation/issues).
 
