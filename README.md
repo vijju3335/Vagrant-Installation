@@ -11,8 +11,8 @@ For more, visit [Vagrant](https://www.vagrantup.com/docs/)
 - [Download](#download)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Bug And Feature Requests](#bug-and-feature-requests)
 - [Postgresql](https://github.com/vijju3335/LogsAnalysis)
+- [Bug And Feature Requests](#bug-and-feature-requests)
 
 
 ### Download
@@ -107,6 +107,8 @@ if any changes made to config file **Vagrantfile** must follow these,
 - [Start Vagrant](#start-vagrant)
 
 ---
+### Postgresql
+- how to use [postgresql](https://github.com/vijju3335/LogsAnalysis) see from here.
 
 ## Bug And Feature Requests
 - Have a bug or a feature request? Please feel free to open an [issue](https://github.com/vijju3335/Vagrant-Installation/issues).
