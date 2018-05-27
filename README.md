@@ -9,7 +9,7 @@ For more, visit [Vagrant](https://www.vagrantup.com/docs/)
 
 ## Table Of Contents
 - [Download](#download)
-- [Software Requirements](#software-requirements)
+- [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Bug And Feature Requests](#bug-and-feature-requests)
 
@@ -36,30 +36,40 @@ Vagrant-Installation-master.zip
 └── README.md
 ```
 
-#### Software Requirements
-
-This project should run on a virutal machine created using Vagrant, ToDo this, follow these steps:
-- Vagrant
-- Virtual Box
-
+#### Prerequisites
+- For Direct installation  [download](https://github.com/vijju3335/Vagrant-Installation/archive/master.zip) and  go [here](#)
 ---
 ## Installation
 
 - Install [Vagrant](#vagrant)
 - Install [Virtual Box](#virtual-box)
 
-- First i go to disk D and create folder VM_14.04
+- First here, I go to drive, D and create folder VM_14.04
 - open command prompt at VM_14.04 folder 
 
 ```D:\VM_14.0.4>```
 
 - There are different vagrant-boxes [here](https://app.vagrantup.com/boxes/search)
+- This required only at time of intialization.
+#### Stages
 
+- To [Start Vagrant](#start-vagrant)
+- To [Exit Vagrant](#exit-vagrant)
+- To [Stop Vagrant](#stop-vagrant)
+- To [Restart Vagrant](#restart-vagrant)
+
+- Skip Below  command if you [download](https://github.com/vijju3335/Vagrant-Installation/archive/master.zip) these files. 
 ```D:\VM_14.0.4>vagrant init ubuntu/trusty64 ```  [live demo](https://github.com/vijju3335/LogsAnalysis/blob/master/images/v1.JPG) 
-- TO start vagrant,
+
+### Start Vagrant
+
+- Go to directory where Vagrantfile exists. then open command 
 ```D:\VM_14.0.4>vagrant up```  [live demo](https://github.com/vijju3335/LogsAnalysis/blob/master/images/v2.JPG)
+
 - To control **Virtual Machine** from Host Sytem
+
 ```\VM_14.04>vagrant ssh```  [live demo](https://github.com/vijju3335/LogsAnalysis/blob/master/images/v3.JPG)
+
 - To Access shared Directory Folders,
 ```
 vagrant@vagrant-ubuntu-trusty-64:~$ cd /vagrant
@@ -71,18 +81,29 @@ vagrant@vagrant-ubuntu-trusty-64:/vagrant$ ls -a
 .  ..  .vagrant  Vagrantfile
 vagrant@vagrant-ubuntu-trusty-64:/vagrant$ 
 ```
-- To stop vagrant virtual box , 
+### Exit Vagrant
+- To Exit from vagrant virtual box ,
 ```
 vagrant@vagrant-ubuntu-trusty-64:/vagrant$
 vagrant@vagrant-ubuntu-trusty-64:/vagrant$ exit
 logout
 Connection to 127.0.0.1 closed.
-
+```
+### Stop Vagrant
+- To stop vagrant virtual box ,
+```
 D:\VM_14.0.4>vagrant halt
 ==> default: Attempting graceful shutdown of VM...
 
 D:\VM_14.0.4>
 ```
+
+### Restart Vagrant
+if any changes made to config file **Vagrantfile** must follow these,
+- [Stop Vagrant](#stop-vagrant) then
+- 
+```D:\VM_14.0.4>vagrant up```
+```D:\VM_14.04>vagrant ssh```  
 
 #### Vagrant
 - Download the vagrant setup file for **windows** [Vagrant.exe](https://www.vagrantup.com/downloads.html).
